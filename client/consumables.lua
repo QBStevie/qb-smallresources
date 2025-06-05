@@ -143,7 +143,6 @@ local function cokeBaggyEffect()
 end
 
 -- Events
-
 RegisterNetEvent('consumables:client:Eat', function(itemName)
     QBCore.Functions.Progressbar('eat_something', Lang:t('consumables.eat_progress'), 5000, false, true, {
         disableMovement = false,
